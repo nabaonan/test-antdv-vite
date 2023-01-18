@@ -9,7 +9,7 @@ import {
 } from 'unplugin-vue-components/resolvers'
 // https://vitejs.dev/config/
 
-// console.log('meta',import.meta)
+console.log('meta',import.meta)
 
 export default defineConfig({
   plugins: [vue(),
