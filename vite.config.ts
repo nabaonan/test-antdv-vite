@@ -1,8 +1,8 @@
 /*
  * @Author: nbn
  * @Date: 2023-07-17 21:51:06
- * @LastEditors: nbn
- * @LastEditTime: 2023-07-17 23:40:36
+ * @LastEditors: nabaonan
+ * @LastEditTime: 2023-11-21 10:55:05
  * @FilePath: /test-antdv-vite/vite.config.ts
  * @Description:
  */
@@ -23,8 +23,7 @@ export default defineConfig({
     Components({
       resolvers: [
         AntDesignVueResolver({
-          importStyle: false,
-          resolveIcons: true
+          importStyle: false
         }),
       ],
     }),
